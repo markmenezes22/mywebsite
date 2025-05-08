@@ -1,0 +1,94 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #333;
+}
+
+header {
+    background-color: #ff6600;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+section {
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+h2 {
+    color: #ff6600;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: #ffe5cc;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+ul li:hover {
+    background-color: #ffd4a3;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, textarea {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #e65c00;
+}
+
+footer {
+    background-color: #f2f2f2;
+    color: #555;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}
+
+.profile-photo {
+    width: 200px;
+    border-radius: 100px;
+    margin: 20px auto;
+    display: block;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+#work-description {
+    background-color: #fff3e6;
+    border: 1px solid #ffd4a3;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    display: block;
+}
